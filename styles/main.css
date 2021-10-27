@@ -12,6 +12,7 @@ html {
 }
 
 main {
+    padding-top: 1rem;
     gap: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
