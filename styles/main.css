@@ -1,0 +1,36 @@
+:root {
+    --bg: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+html {
+    background-color: var(--bg);
+}
+
+main {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    align-items: end;
+}
+
+img, video {
+    width: 100%;
+    vertical-align: top;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --bg: #282828;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "short_name": "Кистаури",
+    "name": "Давид Кистаури",
+    "description": "Сайт Давида Кистаури",
+    "icons": [
+      {
+        "src": "/apple-touch-icon.png",
+        "type": "image/png",
+        "sizes": "180x180",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000"
+  }
