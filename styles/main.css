@@ -26,7 +26,7 @@ img, video {
 
 @media screen and (prefers-color-scheme: dark) {
     :root {
-        --bg: #282828;
+        --bg: #000000;
     }
 }
 
