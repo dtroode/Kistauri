@@ -72,13 +72,32 @@
           />
         </picture>
       </a>
-      <a
-        href="https://secondschool.vercel.app/"
-        title="Сайт второй сухумской школы"
-      >
-        <video autoplay loop>
-          <source src="./images/secondschool.mp4" type="video/mp4" />
-        </video>
+      <a href="https://secondschool.vercel.app/jp/" title="Сайт второй сухумской школы на японском">
+        <picture>
+          <source
+            sizes="(max-width: 847px) calc(100vw - 2rem), (max-width: 1263px) calc((100vw - 3rem)/2), (max-width: 1263px) calc((100vw - 4rem)/3), 1000px"
+            srcset="
+              ./images/700/secondschool-jp-700.avif    700w,
+              ./images/1000/secondschool-jp-1000.avif 1000w,
+              ./images/secondschool-jp.avif           1800w
+            "
+            type="image/avif"
+          />
+          <source
+            sizes="(max-width: 847px) calc(100vw - 2rem), (max-width: 1263px) calc((100vw - 3rem)/2), (max-width: 1263px) calc((100vw - 4rem)/3), 1000px"
+            srcset="
+              ./images/700/secondschool-jp-700.jpg    700w,
+              ./images/1000/secondschool-jp-1000.jpg 1000w,
+              ./images/secondschool-jp.jpg           1800w
+            "
+            type="image/jpg"
+          />
+          <img
+            src="./images/secondschool-jp.jpg"
+            alt="Сайт второй сухумской школы на японском"
+            loading="lazy"
+          />
+        </picture>
       </a>
       <a href="./images/me.jpg" title="Я летом 2021">
         <picture
@@ -102,7 +121,16 @@
           />
           <img src="./images/me.jpg" alt="Я летом 2021" loading="lazy" />
         </picture> </a
-      ><a href="./images/acl.png" title="ACL списки">
+      >
+      <a
+        href="https://secondschool.vercel.app/"
+        title="Сайт второй сухумской школы"
+      >
+        <video autoplay loop>
+          <source src="./images/secondschool.mp4" type="video/mp4" />
+        </video>
+      </a>
+      <a href="./images/acl.png" title="ACL списки">
         <picture
           ><source
             sizes="(max-width: 847px) calc(100vw - 2rem), (max-width: 1263px) calc((100vw - 3rem)/2), (max-width: 1263px) calc((100vw - 4rem)/3), 1000px"
