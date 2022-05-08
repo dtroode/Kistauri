@@ -24,6 +24,18 @@ img, video {
     vertical-align: top;
 }
 
+p {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a, a:hover, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (prefers-color-scheme: dark) {
     :root {
         --bg: #000000;
