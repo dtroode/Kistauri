@@ -1,5 +1,6 @@
 :root {
     --bg: #ffffff;
+    --fg: #000000;
 }
 
 body {
@@ -32,13 +33,14 @@ p {
 }
 
 a, a:hover, a:visited {
-    color: white;
+    color: var(--fg);
     text-decoration: none;
 }
 
 @media screen and (prefers-color-scheme: dark) {
     :root {
         --bg: #000000;
+        --fg: #ffffff;
     }
 }
 
